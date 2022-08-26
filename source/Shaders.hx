@@ -1,4 +1,4 @@
-ackage;
+package;
 
 // STOLEN FROM HAXEFLIXEL DEMO AND FROM PSYCH ENGINE 0.5.1 WITH SHADERS LOL
 import flixel.system.FlxAssets.FlxShader;
