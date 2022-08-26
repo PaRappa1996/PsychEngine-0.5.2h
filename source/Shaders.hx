@@ -35,9 +35,11 @@ class BuildingShader extends FlxShader
     uniform float alphaShit;
     void main()
     {
+
       vec4 color = flixel_texture2D(bitmap,openfl_TextureCoordv);
       if (color.a > 0.0)
         color-=alphaShit;
+
       gl_FragColor = color;
     }
   ");
@@ -788,6 +790,7 @@ void main()
 
 
 /*STOLE FROM DAVE AND BAMBI
+
 I LOVE BANUUU I LOVE BANUUU
    ________
   /        \
